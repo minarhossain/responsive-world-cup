@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -58,9 +57,7 @@
     font-size: 15px;
     align-items: center;
     margin-left: 20%;
-
 }
-
 
 .btn:hover {
     background-color: green;
@@ -93,9 +90,7 @@
     font-weight: 700;
     width: 70%;
     border: 1px solid rgb(221, 202, 202);
-
 }
-
 
 #special-color {
     background-color: rgb(187, 157, 4);
@@ -111,16 +106,12 @@
     justify-content: space-between;
     justify-items: center;
     margin: 0 auto;
-
-
 }
 
 .single-card {
     width: 100%;
     border: 1px solid rgb(241, 220, 220);
     border-radius: 10px;
-
-
 }
 
 .single-card img {
@@ -129,7 +120,6 @@
 
 .card-desc {
     padding: 11px;
-
     border-top: none;
     border-radius: 10px;
 }
@@ -165,6 +155,7 @@
 }
 
 /* main end */
+
 /* footer */
 footer {
     background-color: black;
@@ -187,7 +178,6 @@ hr {
 
 ul {
     list-style-type: none;
-
     justify-content: center;
     padding: 0 62px;
 }

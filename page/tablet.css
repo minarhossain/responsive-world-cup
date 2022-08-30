@@ -58,8 +58,6 @@
 .image img {
     padding-left: 80px;
     height: 100%;
-    /* padding-top: 20px; */
-    ;
 }
 
 .btn {
@@ -69,7 +67,6 @@
     border-radius: 10px;
     letter-spacing: 1px;
     font-size: 15px;
-
 }
 
 .btn:hover {
@@ -155,25 +152,19 @@
     border-top: none;
     border-radius: 10px;
     margin-bottom: 20px;
-    ;
+
 }
-
-
 
 .card-reviews {
     color: rgb(137, 109, 109);
     margin-top: 10px;
 }
 
-
 .card-desc {
     padding: 11px;
-
     border-top: none;
     border-radius: 10px;
 }
-
-
 
 .card-desc p {
     margin-bottom: 15px;
@@ -182,8 +173,6 @@
 .card-reviews {
     color: rgb(137, 109, 109);
 }
-
-
 
 .view-all-btn {
     text-align: center;

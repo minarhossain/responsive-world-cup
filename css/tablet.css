@@ -8,17 +8,10 @@
 }
 
 #container {
-
     background: black;
     border-radius: 20px;
     margin: 0 auto;
-
 }
-
-/* .container {
-    width: 768px;
-    margin: 0 auto;
-} */
 
 .description {
     color: white;
@@ -51,12 +44,9 @@
     margin-right: 80px;
 }
 
-
 .image img {
     padding-left: 80px;
     height: 100%;
-    /* padding-top: 20px; */
-    ;
 }
 
 .btn {
@@ -66,13 +56,11 @@
     border-radius: 10px;
     letter-spacing: 1px;
     font-size: 15px;
-
 }
 
 .btn:hover {
     background-color: green;
 }
-
 
 /* main */
 .container {
@@ -120,7 +108,6 @@
 
 .card-desc {
     padding: 11px;
-
     border-top: none;
     border-radius: 10px;
 }
