@@ -52,7 +52,7 @@
     margin-right: 80px;
 }
 
-element.style {}
+
 
 
 
@@ -65,12 +65,17 @@ element.style {}
 
 .btn {
     padding: 15px 25px;
-    background-color: rgb(246, 5, 5);
+    background-color: rgb(115, 60, 245);
     color: white;
     border-radius: 10px;
     letter-spacing: 1px;
     font-size: 25px;
 
+}
+
+.btn:hover {
+    background-color: green;
+    transition: .5s;
 }
 
 /* ===================================================================
@@ -118,7 +123,7 @@ main {
 }
 
 #special-color {
-    background-color: red;
+    background-color: rgb(187, 157, 4);
     color: white
 }
 
@@ -163,8 +168,9 @@ main {
 .card-reviews span {
     margin-left: 5px;
 }
-.show{
-    display:none ;
+
+.show {
+    display: none;
 }
 
 /* ===================================================================
@@ -175,20 +181,35 @@ main {
                Footer started 
 =======================================================================
 */
-footer{
-    background-color:black;
-    color: white;padding: 80px 150px;
+footer {
+    background-color: black;
+    color: white;
+    padding: 80px 150px;
     text-align: center;
 }
-hr{
+
+hr {
     border: none;
-   height: 1px;
-   background-color: rgb(32, 30, 30);
+    height: 1px;
+    background-color: rgb(32, 30, 30);
     margin: 40px 0;
 }
-ul{
+
+ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     padding: 0 120px;
+}
+
+.social-icons {
+    display: none;
+}
+
+.social-icons i {
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    font-size: 30px
 }

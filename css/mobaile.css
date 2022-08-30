@@ -51,7 +51,7 @@
 
 .btn {
     padding: 12px 20px;
-    background-color: rgb(246, 5, 5);
+    background-color: rgb(115, 60, 245);
     color: white;
     border-radius: 10px;
     letter-spacing: 1px;
@@ -59,6 +59,12 @@
     align-items: center;
     margin-left: 20%;
 
+}
+
+
+.btn:hover {
+    background-color: green;
+    transition: .5s;
 }
 
 /* ====================
@@ -90,8 +96,9 @@
 
 }
 
+
 #special-color {
-    background-color: red;
+    background-color: rgb(187, 157, 4);
     color: white
 }
 
@@ -188,4 +195,13 @@ ul {
 li {
     margin-right: 31px;
     margin-top: 28px;
+}
+
+
+.social-icons i {
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    font-size: 30px
 }
